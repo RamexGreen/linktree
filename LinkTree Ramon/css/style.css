@@ -3,8 +3,12 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(82, 144, 216);
+body { background-image: url("../img/fundo-gradiente-de-luxo-abstrato-azul-escuro-liso-com-banner-de-estudio-vinheta-preta.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
 
 .cabecalho {
@@ -26,11 +30,15 @@ body {
 .cabecalho h1 {
     font-size: 30px;
     font-family: "Gochi Hand", cursive;
+    color: aliceblue;
+    text-shadow: black 3px 3px 0px;
 }
 
 .cabecalho p {
     font-size: 20px;
     font-family: "Gotu", sans-serif;
+    color: aliceblue;
+    text-shadow: black 3px 1px 0px;
 }
 
 .btns {
@@ -50,5 +58,8 @@ body {
     border: black solid 3px;
     box-shadow: black 5px 5px 0px;
     text-decoration: none;
+}
 
+.btns a:hover {
+    background-color: rgb(233, 19, 19);
 }
